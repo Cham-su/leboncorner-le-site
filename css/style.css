@@ -1,0 +1,63 @@
+/*** Reset CSS ***/
+
+/** 
+JE PREFERE NE RIEN CONFIGURER ET LAISSER LA CONFIGURATION DU CSS PAR DEFAUT 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+} 
+**/
+
+/*** COMMON CLASSES ***/
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.jusify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/*** COMMON STYLE ***/
+
+:root {
+  --color-black: rgba(0, 0, 0, 0);
+}
+
+/*** CSS DU HEADER DE LA PAGE ***/
+
+header{
+
+}
+
+/*** CSS DU MAIN DE LA PAGE ***/
+
+main  {
+
+}
+
+/*** CSS DU FOOTER DE LA PAGE ***/
+footer {
+
+}
