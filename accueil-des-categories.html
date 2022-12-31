@@ -152,20 +152,199 @@
 
       </tfoot>
     </table>
+    <!-- formulaire -->
+    <form action="#" method="#">
+      <input type="hidden" value="99" name="id-product"/>
 
+      <fieldset>
+        <div>
+          <label for="first-name">Your first name</label>
+          <input 
+          type="text"
+          name="first-name"
+          id="first-name"
+          minlength="2"
+          maxlength="25"
+          required
+          autofocus
+          />
+        </div>
+        <br>
 
+        <div>
+          <label for="last-name">Your last name</label>
+          <input 
+          type="text"
+          name="last-name"
+          id="last-name"
+          minlength="2"
+          maxlength="25"
+          required
+          autofocus
+          /> 
+        </div>
+        <br>
 
+        <div>
+          <label for="email-adress">Your email adress</label>
+          <input 
+          type="email"
+          name="email-adress"
+          id="email-adress"
+          value="test@mail.com"
+          minlength="1"
+          maxlength="100"
+          required
+          autofocus
+          readonly
+          />    
+        </div>
 
+        <div>
+          
+          <label for="password">Your password</label>
+          <input 
+          type="password"
+          name="password"
+          id="password"
+          required
+          />
+        </div>
+        <div>
+          
+          <label for="repeated-password">Tape your password a second time</label>
+          <input 
+          type="repeated-password"
+          name="repeated-password"
+          id="repeated-password"
+          required
+          />
+        </div>
 
+        <div>
+          <label for="birthday">Your birthday</label>
+          <input 
+          type="date"
+          name="birthday" 
+          id="birthday"
+          />   
+        </div>
+      
+        <p>Choose your gender</p>
 
+        <div>
+          <input 
+          type="radio"
+          name="gender"
+          id="male"
+          value="m"
+          />
+          <label for="male">Male</label>
+        </div>
+
+        <div>
+          
+          <input 
+          type="radio"
+          name="gender"
+          id="female"
+          value="f"
+          />
+          <label for="female">Female</label>
+        </div>
+
+        <div>
+          
+          <input 
+          type="radio"
+          name="gender"
+          id="idk"
+          value="idk"
+          />
+          <label for="idk">I don't know yet let me think, the i decide later</label>
+        </div>
+
+        <p>Choose your country</p>
+
+        <div>
+          
+          <label for="countries">List of countries</label>
+          <select name="countries" multiple id="countries">
+            <option value="#" disabled>Choose your country</option>
+  
+            <optgroup label="Europe">
+              <option value="fr">France</option>
+              <option value="sp">Espagne</option>
+              <option value="it">Italie</option>
+              <option value="En">angleterre</option>
+              <option value="deu">Allemagne</option>
+              <option value="Bel">Belgique</option>
+              <option value="sui">Suisse</option>
+              <option value="lux">luxembourg</option>
+            </optgroup>
+  
+            <optgroup label="Amerique">
+              <option value="us">United States of America </option>
+              <option value="ca">Canada</option>
+              <option value="br">Brésil</option>
+              <option value="col">Colommbie</option>
+              <option value="pe">Pérou</option>
+              <option value="arg">Argentine</option>
+              <option value="mex">Mexique</option>
+  
+            </optgroup>
+      
+          </select>
+        </div>
+
+      
+        <p>Choose your hobbies</p>
+
+        <div>
+          
+          <label for="swwiming">Swwiming</label>
+          <input 
+          type="checkbox"
+          name="hobbies"
+          id="swwiming"
+          value="swwiming"
+          />
+        </div>
+
+        <div>
+          <label for="driving">Driving</label>
+          <input 
+          type="checkbox"
+          name="hobbies"
+          id="driving"
+          value="driving"
+          />
+          
+        </div>
+
+        <div>
+          <textarea name="commentaire" id="commentaire" cols="50" rows="10" placeholder="Enter your comment here..."></textarea>
+          
+        </div>
+
+        <div>
+          <input 
+          type="submit"
+          value="Subscribe"
+          />
+          
+          <input 
+          type="reset"
+          value="Reset"
+          />
+        </div>
+        
+        
+      </fieldset>
     
+    </form>
 
 
-
-
-
-    
-    
   </main>
   
   <footer>
