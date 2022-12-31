@@ -152,9 +152,17 @@
 
       </tfoot>
     </table>
+
     <!-- formulaire -->
     <form action="#" method="#">
-      <input type="hidden" value="99" name="id-product"/>
+      <!-- à quoi cela peut servir? -->
+      <div>
+        <input 
+        type="hidden" 
+        name="id-product"
+        value="99" 
+        />
+      </div>
 
       <fieldset>
         <div>
@@ -169,6 +177,7 @@
           autofocus
           />
         </div>
+        
         <br>
 
         <div>
@@ -183,6 +192,7 @@
           autofocus
           /> 
         </div>
+
         <br>
 
         <div>
@@ -200,8 +210,9 @@
           />    
         </div>
 
+        <br>
+
         <div>
-          
           <label for="password">Your password</label>
           <input 
           type="password"
@@ -210,8 +221,10 @@
           required
           />
         </div>
+
+        <br>
+
         <div>
-          
           <label for="repeated-password">Tape your password a second time</label>
           <input 
           type="repeated-password"
@@ -221,6 +234,8 @@
           />
         </div>
 
+        <br>
+
         <div>
           <label for="birthday">Your birthday</label>
           <input 
@@ -229,8 +244,12 @@
           id="birthday"
           />   
         </div>
+        
+        <br>
       
         <p>Choose your gender</p>
+
+        <br>
 
         <div>
           <input 
@@ -242,8 +261,9 @@
           <label for="male">Male</label>
         </div>
 
+        <br>
+
         <div>
-          
           <input 
           type="radio"
           name="gender"
@@ -253,8 +273,9 @@
           <label for="female">Female</label>
         </div>
 
+        <br>
+
         <div>
-          
           <input 
           type="radio"
           name="gender"
@@ -264,12 +285,20 @@
           <label for="idk">I don't know yet let me think, the i decide later</label>
         </div>
 
+        <br>
+
         <p>Choose your country</p>
+
+        <br>
 
         <div>
           
-          <label for="countries">List of countries</label>
+          <div>
+            <label for="countries">List of countries</label>
+          </div>
+
           <select name="countries" multiple id="countries">
+
             <option value="#" disabled>Choose your country</option>
   
             <optgroup label="Europe">
@@ -297,11 +326,13 @@
           </select>
         </div>
 
+        <br>
       
         <p>Choose your hobbies</p>
 
+        <br>
+
         <div>
-          
           <label for="swwiming">Swwiming</label>
           <input 
           type="checkbox"
@@ -311,6 +342,8 @@
           />
         </div>
 
+        <br>
+
         <div>
           <label for="driving">Driving</label>
           <input 
@@ -319,29 +352,29 @@
           id="driving"
           value="driving"
           />
-          
         </div>
+
+        <br>
 
         <div>
           <textarea name="commentaire" id="commentaire" cols="50" rows="10" placeholder="Enter your comment here..."></textarea>
-          
         </div>
+
+        <br>
 
         <div>
           <input 
           type="submit"
           value="Subscribe"
           />
-          
+  
           <input 
           type="reset"
           value="Reset"
           />
         </div>
-        
-        
       </fieldset>
-    
+
     </form>
 
 
