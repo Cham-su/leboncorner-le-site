@@ -2,6 +2,7 @@
 
 /** 
 JE PREFERE NE RIEN CONFIGURER ET LAISSER LA CONFIGURATION DU CSS PAR DEFAUT 
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;

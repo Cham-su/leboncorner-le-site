@@ -1,0 +1,99 @@
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+*/
+
+/* Common Classes */
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-around { 
+  justify-content: space-around 
+}
+.justify-between {
+  justify-content: space-between;
+} 
+.justify-end {
+  justify-content: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+/* Common style */
+
+/* body */
+body {
+  width: 80%;
+  margin-left: 10%;
+  border: 3px solid rgb(192, 145, 16);
+  background-color: rgb(124, 218, 157);
+  box-shadow:  1px 2px 9 px 0px rgb(0, 100, 0,0.75);
+  -webkit-box-shadow:1px 2px 9 px 0px  rgb(0, 100, 0,0.75);
+  -moz-box-shadow:1px 2px 9 px  0px rgb(0, 100, 0,0.75);                
+}
+/* Mix config */
+header,
+nav,
+main,
+section,
+article,
+aside,
+footer {
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow:  1px 2px 9 px 0px rgb(0, 100, 0,0.75);
+  -webkit-box-shadow:1px 2px 9 px 0px  rgb(0, 100, 0,0.75);
+  -moz-box-shadow:1px 2px 9 px  0px rgb(0, 100, 0,0.75);
+}
+
+nav ul,
+footer ul {
+  list-style: none;
+}
+
+/* header */
+header {
+  background-color: rgb(152, 115, 21);
+}
+header nav {
+width: 30%;
+}
+
+/* main */
+main {
+  background-color: rgba(255, 255, 255, 0);
+  width: 60%;
+}
+aside {
+  background-color:  rgba(0, 100, 0,0.75);
+  width: 30%;
+  height: 100%;
+  
+}
+  article {
+    text-align: justify;
+  }
+
+/* footer */
+footer {
+  background-color:rgb(152, 115, 21)
+
+}
+
+footer ul li {
+  width: 25%;
+  padding: 1rem;
+}
