@@ -1,45 +1,45 @@
-# LebonCorner, bon à tout apprendre
+# LebonCorner bon à tout apprendre
 
-## Le bonCorner est un site que je vais essayer de créer pour moi, afin de m'entraîner à coder dans plusieurs langages.
+## Le bonCorner est un site que je vais essayer de créer pour moi, afin de m'entraîner à coder dans plusieurs langages
 
-# Étapes de mon projet:
+## Étapes de mon projet
 
-## Dans un premier temps, je repars des notions de base afin de réviser et de pratiquer. 
+### Dans un premier temps, je repars des notions de base afin de réviser et de pratiquer
 
-## Ensuite, dans un second lieu, je le developperais  pour qu'il soit comme une aide au public, afin d'apprendre en autonomie ou ensemble plusieurs choses utiles dans la vie quotidienne.
+### Ensuite, dans un second lieu, je le developperais  pour qu'il soit comme une aide au public, afin d'apprendre en autonomie ou ensemble plusieurs choses utiles dans la vie quotidienne
 
-# Contenu futur de mon projet:
+## Contenu de mon projet
 
-## français comme langue étrangère.
+### français comme langue étrangère
 
-## anglais comme langue étrangère.
+### anglais comme langue étrangère
 
-## Apprentissage ludique de l'arabe comme langue étrangère.
+### Apprentissage ludique de l'arabe comme langue étrangère
 
-## Quran.
+### Quran
 
-## logistique 
+### logistique
 
-## informatique
+### informatique
 
-## bricolage 
+### bricolage
 
-## sport
+### sport
 
-## lecture 
+### lecture
 
-## films 
+### films
 
-## séries
+### séries
 
-## humour
+### humour
 
-## cours de conduite 
+### cours de conduite
 
-## cuisine
+### cuisine
 
-## voyage
+### voyage
 
-## annonces 
+### annonces
 
-## services
+### services
