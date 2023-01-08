@@ -1,0 +1,64 @@
+
+
+/* h1 + p {
+  margin-bottom: 40px;
+} */
+h1,
+p {
+  font-size: 30px;
+}
+
+.color + p {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.font-size + p {
+  font-size: 5rem;
+}
+
+.font-family + p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.line-height + p {
+  line-height: 5vw;
+  text-align: justify;
+}
+
+.letter-spacing + p {
+  letter-spacing: 30px;
+}
+
+.word-spacing + p {
+  word-spacing: 30px;
+}
+
+.text-align + p {
+  text-align: justify;
+}
+
+.text-decoration + p {
+  text-decoration: underline;
+}
+
+.font-weight + p{
+  font-weight: 700;
+}
+
+.font-style + p {
+  font-style: italic;
+}
+
+.text-indent + p {
+  text-indent: 30px;
+}
+
+.text-transform + p {
+  text-transform: uppercase;
+}
+
+
+
+
+
